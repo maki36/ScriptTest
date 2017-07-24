@@ -76,7 +76,7 @@ public class Test : MonoBehaviour {
 		hairetu [4] = 50;
 
 		// 配列の要素をすべて表示する
-		for (int i = 0; i < 5; i++) {
+		for (int i = 4; i >= 0 ; i--) {
 			Debug.Log (hairetu [i]);
 		}
 	}
